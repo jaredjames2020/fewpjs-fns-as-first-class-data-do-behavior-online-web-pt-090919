@@ -8,4 +8,9 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+
+functin greet(timeString){
+  timeString 
+}
+
 /* Write your implementation of displayMessage() */
