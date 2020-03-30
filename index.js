@@ -15,18 +15,13 @@ function greet(timeString){
     greeting = "Good Morning"
   }else if (time >= 12 && time < 17){
     greeting = "Good Afternoon"
-  }else {
+  }else if (time >= 17 {
     greeting = "Good Evening"
+  }else {
+    greeting = "Error calculating time."
   }
   return greeting;
 }
-
-// function greet(timeString){
-//   let time = parseInt(timeString)
-//   if ( time < 12) return "Good Morning"
-//   if ( time > 17) return "Good Evening"
-//   return "Good Afternoon"
-// }
 
 
 /* Write your implementation of displayMessage() */
