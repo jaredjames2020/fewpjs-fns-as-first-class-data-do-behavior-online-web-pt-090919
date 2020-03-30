@@ -11,8 +11,10 @@ function handleClick(e) {
 
 function greet(timeString){
   time = parseInt(timeString)
-  if (time) <= 12
-    console.log
+  if (time <= 12){
+     console.log
+  }
+   
 }
 
 /* Write your implementation of displayMessage() */
