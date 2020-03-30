@@ -10,7 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 functin greet(timeString){
-  time = timeString.split(":")
+  parseInt(timeString)
 }
 
 /* Write your implementation of displayMessage() */
