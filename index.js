@@ -9,8 +9,10 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 
-functin greet(timeString){
-  parseInt(timeString)
+function greet(timeString){
+  time = parseInt(timeString)
+  if (time) <= 12
+    console.log
 }
 
 /* Write your implementation of displayMessage() */
