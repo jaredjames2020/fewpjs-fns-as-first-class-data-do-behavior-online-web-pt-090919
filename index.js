@@ -24,8 +24,8 @@ function handleClick(e) {
 function greet(timeString){
   time = parseInt(timeString)
   if (time < 12) return "Good Morning"
-  if (time >= 12 && time <= 17) return "Good Afternoon"
-  if (time > 17) return "Good Morning"
+  if (time >= 12 && time < 17) return "Good Afternoon"
+  if (time >= 17) return "Good Morning"
 }
 
 /* Write your implementation of displayMessage() */
