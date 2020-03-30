@@ -21,10 +21,10 @@ function handleClick(e) {
 //   return greeting;
 // }
 
-function greet(time) {
-  const hour = Number(time.split(":")[0]);
-  if ( hour < 12) return "Good Morning"
-  if ( hour > 17) return "Good Evening"
+function greet(timeString){
+  time = parseInt(timeString)
+  if ( time < 12) return "Good Morning"
+  if ( time > 17) return "Good Evening"
   return "Good Afternoon"
 }
 
