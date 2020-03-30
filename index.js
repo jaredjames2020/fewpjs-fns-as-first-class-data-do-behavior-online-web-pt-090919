@@ -20,7 +20,7 @@ function greet(timeString){
   }else {
     greeting = "Error with time"
   }
-  console.log(greeting);
+  return console.log(greeting);
 }
 
 /* Write your implementation of displayMessage() */
